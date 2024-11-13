@@ -1,6 +1,7 @@
 ### 3155 Final Project Team
 * Ed C.
 * Mauricio M. 
+* Chris L.
 ### Installing necessary packages
 * `pip install fastapi`
 * `pip install "uvicorn[standard]"`  
