@@ -1,4 +1,7 @@
-### Installing necessary packages:  
+### 3155 Final Project Team
+* Ed C.
+* Mauricio M. 
+### Installing necessary packages
 * `pip install fastapi`
 * `pip install "uvicorn[standard]"`  
 * `pip install sqlalchemy`  
@@ -11,3 +14,6 @@
 `uvicorn api.main:app --reload`
 ### Test API by built-in docs:
 [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+
+### User stories and Product Backlog
+[https://docs.google.com/spreadsheets/d/1rJIA9EKUSKb20ZAuNn8S3p-3-UhjlFRUdrbDqw6Rtwg/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1rJIA9EKUSKb20ZAuNn8S3p-3-UhjlFRUdrbDqw6Rtwg/edit?usp=sharing)
