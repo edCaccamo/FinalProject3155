@@ -4,6 +4,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from .routers import index as indexRoute
 from .models import model_loader
 from .dependencies.config import conf
+from routers import customers, menu_items, payment_info, ratings_reviews
+
+
 
 
 app = FastAPI()
@@ -20,6 +23,11 @@ app.add_middleware(
 
 model_loader.index()
 indexRoute.load_routes(app)
+
+app.include_router(customers.router)
+app.include_router(menu_items.router)
+app.include_router(payment_info.router)
+app.include_router(ratings_reviews.router)
 
 
 if __name__ == "__main__":
